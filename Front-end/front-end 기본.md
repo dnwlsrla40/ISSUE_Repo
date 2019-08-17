@@ -1,9 +1,9 @@
 # Front-end 기본 관련 Error
 
 목차  
-[1. 메모장에서 uft-8 인코딩 사용시 주의](#메모장에서-uft-8-인코딩-사용시-주의)
-[2. CSS 우선 순위](#css-우선-순위)
-[3. div, p, br, span Tag 차이점](#div,-p,-br,-span-tag)
+[1. 메모장에서 uft-8 인코딩 사용시 주의](#메모장에서-uft-8-인코딩-사용시-주의)  
+[2. CSS 우선 순위](#css-우선-순위)  
+[3. div, p, br, span Tag 차이점](#div,-p,-br,-span-tag)  
 
 ## 메모장에서 uft-8 인코딩 사용시 주의
 
