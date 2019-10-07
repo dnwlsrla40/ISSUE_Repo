@@ -8,7 +8,7 @@
 
 ![다이아몬드 문제](../Images/Java/다이아몬드문제.JPG)
 
-위의 상황은 코드로 나타내면 상위 클래스 A,B 중 어떤 메서드를 실행해야 할지 몰라  다음과 같은 충돌이 생기게 됩니다.
+위의 상황은 코드로 나타내면 상위 클래스 A,B 중 어떤 메서드를 실행해야 할지 몰라  다음과 같은 충돌이 생기게 된다.
 
 ```
 class GrandClass{
@@ -41,7 +41,7 @@ class SonClass extends FatherAClass, FatherBClass{
 
 ## **인터페이스 다중 상속**
 
-인터페이스는 위와 똑같은 상황이 생길 수 있음에도 다중 상속을 지원합니다. 그 이유는 인터페이스는 기능에 대한 선언만 해두기 때문에, 다이아몬드 상속이 발생해도 문제가 발생하지 않습니다.
+인터페이스는 위와 똑같은 상황이 생길 수 있음에도 다중 상속을 지원한다. 그 이유는 인터페이스는 기능에 대한 선언만 해두기 때문에, 다이아몬드 상속이 발생해도 문제가 발생하지 않는다.
 
 ```
 interface GrandInterface{
@@ -66,7 +66,7 @@ interface SonInterface extends FatherAInterface, FatherBInterface {
 
 ## **자바8 이상의 default method**
 
-자바8에서는 default method가 추가되어 내부적으로 interface 구현이 가능합니다. 이런 경우는 class처럼 다중 상속을 받을 수 없게 됩니다.
+자바8에서는 default method가 추가되어 내부적으로 interface 구현이 가능하다. 이런 경우는 class처럼 다중 상속을 받을 수 없게 된다.
 
 ```
 interface GrandInterface{
